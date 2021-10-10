@@ -1,0 +1,10 @@
+name: 'Testing to publish action'
+description: 'This is to test creating a release'
+author: "Ruchika"
+inputs:
+  version:
+    description: "Application version to rollback"
+    required: true
+runs:
+  using: 'node12'
+  main: './lib/index.js'
